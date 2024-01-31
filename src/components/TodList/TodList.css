@@ -1,0 +1,84 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+body{
+    background-color: #eee9e9;
+    margin: 4rem;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+ button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+button:hover{
+    background-color: #27ae60;
+}
+.container h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: #2ecc71;
+}
+.inputBox p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 13px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.clearAll{
+    background-color: #ebeaea;
+    color: #000000;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
